@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Victor He - Lab 2 -->
+<!-- Victor He - Lab 4 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,15 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header> 
     <h1>Hello, Web! </h1>
     <p> This is my first HTML page for this course. </p>
+    </header>
+    <nav>
+        <a href="#"> Home</a>
+        <a href="#"> About</a>
+        <a href="#"> Contact</a>
+    </nav>
+    <main>
     <h2> About This Page </h2>
     <ul> 
         <li> Improving my HTML </li>
         <li> History of CSS </li>
         <li> Why we use JavaScript, CSS, and HTML</li>
     </ul>
-<a href=https://outlook.cloud.microsoft/mail/">Very useful as I receieve all my email here</a>
-<img src="frog.jpg" alt="Photo of a frog">
+    <a href=https://outlook.cloud.microsoft/mail/>Very useful as I receieve all my email here</a>
+    <img src="frog.jpg" alt="Photo of a frog">
+    <table>
+    <caption>My Course Schedule</caption>
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th>Topic</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>4</td>
+            <td>Advanced HTML</td>
+            <td>Data Table and Accessible Forms</td>
+        </tr>
+    </tbody>
+</table>
+    </main>
+    <form>
+        <label for="name">Name</label>
+        <input type ="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type ="email" id="email" name="email" required>
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="msg"></textarea>
+
+        <label for="referral">How did you find this page?</label>
+        <select id="referral" name="referral">
+            <option value="search">Search engine</option>
+            <option value="social">Social media</option>
+            <option value="friend">A friend</option>
+        </select>
+
+        <button type="submit">Send</button>
+    </form>
+<footer>
+<p> Victor H., 2026</p>
+</footer>
 </body>
 </html>

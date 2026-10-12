@@ -1,4 +1,4 @@
-/* <!-- Victor He - Lab 6 -->*/
+/* <!-- Victor He - Lab 7 -->*/
 *{
     box-sizing: border-box;
 }
@@ -58,7 +58,7 @@ header h1 {
     width: 100%;
     max-width: 400px;
     padding: 8px;
-    margin-bttom: 12px;
+    margin-bottom: 12px;
 
  }
  .images-wrap{
@@ -93,4 +93,7 @@ header h1 {
 }
  }
  
- 
+ body.dark {
+background-color: #111827;
+color: #f1f5f9;
+}
